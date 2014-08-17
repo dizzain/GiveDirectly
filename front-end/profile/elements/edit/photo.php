@@ -1,0 +1,1 @@
+<form id="<?php echo $type; ?>-photo" class="photo-part"></form>

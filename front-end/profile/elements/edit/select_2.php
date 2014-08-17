@@ -1,0 +1,8 @@
+<div class="overview-part">
+    <div class="name">
+        <span><?php echo $title; ?></span>
+    </div>
+    <div class="description require-here">
+        <form id="<?php echo $type; ?>-<?php echo $item; ?>"></form>
+    </div>
+</div>
