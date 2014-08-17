@@ -3,7 +3,7 @@
     class Dealroom_SimilarWeb {
 
         //Default key for SimilarWeb, actual key is in init.php
-        const USER_KEY = '3cb10ba530bb3d35e073ccf1d0f8fb8d';
+        const USER_KEY = '123456';
 
         /**
         * Get the traffic data from the database
