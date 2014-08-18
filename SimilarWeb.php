@@ -3,7 +3,7 @@
     class Dealroom_SimilarWeb {
 
         //Default key for SimilarWeb, actual key is in init.php
-        const USER_KEY = '3cb10ba530bb3d35e073ccf1d0f8fb8d';
+        const USER_KEY = '123456';
 
         /**
         * Get the traffic data from the database
@@ -32,7 +32,7 @@
             }
 
             return $result;
-        } 
+        }
 
 
         /**
@@ -65,7 +65,7 @@
 
             $site = str_replace('http://', null, $site);
             $site = str_replace('https://', null, $site);
-            $site = str_replace('www.', null, $site);  
+            $site = str_replace('www.', null, $site);
             $site = trim($site, '/');
 
 
@@ -114,7 +114,7 @@
             }
 
             $result = array_merge($result, array('TrafficSources' => $sources));
- 
+
 
             // get the date of the source
 
@@ -146,7 +146,7 @@
 
             $site = str_replace('http://', null, $site);
             $site = str_replace('https://', null, $site);
-            $site = str_replace('www.', null, $site);  
+            $site = str_replace('www.', null, $site);
             $site = trim($site, '/');
 
 
